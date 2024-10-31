@@ -3,7 +3,9 @@ import React from 'react'
 const AboutMe = () => {
   return (
     <div className='pt-10 w-full'>
-      <h2 className='text-xl lg:text-2xl font-semibold font-dm-serif'>About</h2>
+      <h2 className='text-2xl xl:text-3xl font-semibold font-dm-serif'>
+        About
+      </h2>
       <p style={{ lineHeight: 1.75 }} className='pt-2'>
         I have been a Front-end Developer for ~3 years, mostly working with
         HTML, CSS, JavaScript and various Front-end and Back-end Frameworks. I

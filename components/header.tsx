@@ -14,7 +14,7 @@ const Header = () => {
         />
       </div>
       <div className='flex flex-col text-center md:text-left'>
-        <h1 className='text-4xl xl:text-5xl 2xl:text-6xl font-bold font-dm-serif tracking-wide'>
+        <h1 className='text-5xl xl:text-7xl font-bold font-dm-serif tracking-wide'>
           Hi, I&apos;m Siam 👋
         </h1>
         <p className='px-16 lg:px-0 pt-2 xl:text-lg text-muted-foreground'>

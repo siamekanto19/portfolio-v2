@@ -4,7 +4,7 @@ import React from 'react'
 const TechStack = () => {
   return (
     <div className='pt-10 w-full'>
-      <h2 className='text-xl lg:text-2xl font-semibold font-dm-serif'>
+      <h2 className='text-2xl xl:text-3xl font-semibold font-dm-serif'>
         Tech Stack
       </h2>
       <div className='pt-6 flex items-center gap-5 flex-wrap justify-around md:justify-start'>
