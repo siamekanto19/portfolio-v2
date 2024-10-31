@@ -5,11 +5,11 @@ const Header = () => {
   return (
     <div className='flex flex-col md:flex-row items-center gap-5'>
       <div>
-        <div className='w-[110px] h-[110px] rounded-full border flex justify-center items-center'>
+        <div className='w-[135px] h-[135px] rounded-full border flex justify-center items-center'>
           <Image
             src='/images/siam.jpg'
-            width={100}
-            height={100}
+            width={125}
+            height={125}
             className='rounded-full'
             alt='Siam'
           />
