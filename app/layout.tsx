@@ -25,9 +25,7 @@ export default function RootLayout({
     <html lang='en' suppressHydrationWarning>
       <body className={`${murecho.className} ${dmSerif.variable} antialiased`}>
         <ThemeProvider attribute='class' enableSystem disableTransitionOnChange>
-          <BackgroundLines className='min-h-screen'>
-            <div className='w-11/12 md:w-2/3 xl:w-1/2 mx-auto'>{children}</div>
-          </BackgroundLines>
+          <div className='w-11/12 md:w-2/3 xl:w-1/2 mx-auto'>{children}</div>
         </ThemeProvider>
       </body>
     </html>
