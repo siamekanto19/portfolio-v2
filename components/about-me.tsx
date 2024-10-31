@@ -3,7 +3,7 @@ import React from 'react'
 const AboutMe = () => {
   return (
     <div className='pt-10 w-full'>
-      <h2 className='text-2xl xl:text-3xl font-semibold font-dm-serif'>
+      <h2 className='text-2xl xl:text-3xl font-semibold font-dm-serif tracking-wide'>
         About
       </h2>
       <p style={{ lineHeight: 1.75 }} className='pt-2'>

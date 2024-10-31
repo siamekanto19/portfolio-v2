@@ -3,11 +3,11 @@ import React from 'react'
 
 const TechStack = () => {
   return (
-    <div className='pt-10 w-full'>
-      <h2 className='text-2xl xl:text-3xl font-semibold font-dm-serif'>
+    <div className='py-10 w-full'>
+      <h2 className='text-2xl xl:text-3xl font-semibold font-dm-serif tracking-wide'>
         Tech Stack
       </h2>
-      <div className='pt-6 flex items-center gap-5 flex-wrap justify-around md:justify-start'>
+      <div className='pt-6 flex items-center gap-5 flex-wrap justify-start'>
         <div className='h-24 w-24 flex justify-center items-center bg-muted rounded-lg'>
           <Image
             src='/images/typescript.svg'
