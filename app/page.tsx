@@ -1,5 +1,4 @@
 import AboutMe from '@/components/about-me'
-import { BackgroundLines } from '@/components/background-lines'
 import Header from '@/components/header'
 import TechStack from '@/components/tech-stack'
 import Image from 'next/image'
