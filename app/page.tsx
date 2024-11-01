@@ -1,8 +1,7 @@
 import AboutMe from '@/components/about-me'
-import { BackgroundLines } from '@/components/background-lines'
 import Header from '@/components/header'
+import { ModeToggle } from '@/components/mode-toggle'
 import TechStack from '@/components/tech-stack'
-import Image from 'next/image'
 import React from 'react'
 
 const Home = () => {
@@ -11,6 +10,7 @@ const Home = () => {
       <Header />
       <AboutMe />
       <TechStack />
+      <ModeToggle />
     </div>
   )
 }

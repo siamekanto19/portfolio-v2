@@ -2,7 +2,6 @@ import { ThemeProvider } from '@/components/theme-provider'
 import type { Metadata } from 'next'
 import './globals.css'
 import { Murecho, DM_Serif_Display } from 'next/font/google'
-import { BackgroundLines } from '@/components/background-lines'
 
 export const metadata: Metadata = {
   title: 'Siam | Web Application Developer',
