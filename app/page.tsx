@@ -12,7 +12,6 @@ const Home = () => {
       <AboutMe />
       <TechStack />
       <WorkExperience />
-      <ModeToggle />
     </div>
   )
 }
