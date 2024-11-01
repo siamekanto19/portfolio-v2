@@ -3,7 +3,7 @@ import React from 'react'
 
 const TechStack = () => {
   return (
-    <div className='py-10 w-full'>
+    <div className='pt-10 w-full'>
       <h2 className='text-2xl xl:text-3xl font-semibold font-dm-serif tracking-wide'>
         Tech Stack
       </h2>
