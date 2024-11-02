@@ -1,5 +1,18 @@
-import Image from 'next/image'
-import React from 'react'
+import {
+  IconBrandFramerMotion,
+  IconBrandGraphql,
+  IconBrandHtml5,
+  IconBrandNextjs,
+  IconBrandNodejs,
+  IconBrandNuxt,
+  IconBrandPrisma,
+  IconBrandRadixUi,
+  IconBrandReact,
+  IconBrandStripe,
+  IconBrandTailwind,
+  IconBrandTypescript,
+  IconBrandVue,
+} from '@tabler/icons-react'
 
 const TechStack = () => {
   return (
@@ -7,40 +20,51 @@ const TechStack = () => {
       <h2 className='text-2xl xl:text-3xl font-semibold font-dm-serif tracking-wide'>
         Tech Stack
       </h2>
-      <div className='pt-6 flex items-center gap-5 flex-wrap justify-start'>
-        <div className='h-24 w-24 flex justify-center items-center bg-muted rounded-lg'>
-          <Image
-            src='/images/typescript.svg'
-            width={40}
-            height={40}
-            alt='Typescript'
-          />
+      <div className='pt-6 grid grid-flow-row grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7 2xl:grid-cols-8 gap-5'>
+        <div className='aspect-square rounded-lg bg-muted text-foreground flex justify-center items-center'>
+          <IconBrandHtml5 size={40} strokeWidth={1} />
         </div>
-        <div className='h-24 w-24 flex justify-center items-center bg-muted rounded-lg'>
-          <Image src='/images/react.svg' width={40} height={40} alt='React' />
+        <div className='aspect-square rounded-lg bg-muted text-foreground flex justify-center items-center'>
+          <IconBrandTypescript size={40} strokeWidth={1} />
         </div>
-        <div className='h-24 w-24 flex justify-center items-center bg-muted rounded-lg'>
-          <Image
-            src='/images/tailwind.svg'
-            width={40}
-            height={40}
-            alt='Tailwind'
-          />
+        <div className='aspect-square rounded-lg bg-muted text-foreground flex justify-center items-center'>
+          <IconBrandReact size={45} strokeWidth={1} />
         </div>
-        <div className='h-24 w-24 flex justify-center items-center bg-muted rounded-lg'>
-          <Image src='/images/nextjs.svg' width={40} height={40} alt='Nextjs' />
+        <div className='aspect-square rounded-lg bg-muted text-foreground flex justify-center items-center'>
+          <IconBrandNextjs size={45} strokeWidth={1} />
         </div>
-
-        <div className='h-24 w-24 flex justify-center items-center bg-muted rounded-lg'>
-          <Image
-            src='/images/jamstack.svg'
-            width={40}
-            height={40}
-            alt='JamStack'
-          />
+        <div className='aspect-square rounded-lg bg-muted text-foreground flex justify-center items-center'>
+          <IconBrandTailwind size={45} strokeWidth={1} />
         </div>
-        <div className='h-24 w-24 flex justify-center items-center bg-muted rounded-lg'>
-          <Image src='/images/node.svg' width={40} height={40} alt='Nodejs' />
+        <div className='aspect-square rounded-lg bg-muted text-foreground flex justify-center items-center'>
+          <IconBrandFramerMotion size={40} strokeWidth={1} />
+        </div>
+        <div className='aspect-square rounded-lg bg-muted text-foreground flex justify-center items-center'>
+          <IconBrandNodejs size={40} strokeWidth={1} />
+        </div>
+        <div className='aspect-square rounded-lg bg-muted text-foreground flex justify-center items-center'>
+          <IconBrandGraphql size={40} strokeWidth={1} />
+        </div>
+        <div className='aspect-square rounded-lg bg-muted text-foreground flex justify-center items-center'>
+          <IconBrandPrisma size={40} strokeWidth={1} />
+        </div>
+        <div className='aspect-square rounded-lg bg-muted text-foreground flex justify-center items-center'>
+          <IconBrandStripe size={40} strokeWidth={1} />
+        </div>
+        <div className='aspect-square rounded-lg bg-muted text-foreground flex justify-center items-center'>
+          <IconBrandVue size={40} strokeWidth={1} />
+        </div>
+        <div className='aspect-square rounded-lg bg-muted text-foreground flex justify-center items-center'>
+          <IconBrandNuxt size={40} strokeWidth={1} />
+        </div>
+        <div className='aspect-square rounded-lg bg-muted text-foreground flex justify-center items-center'>
+          <IconBrandRadixUi size={40} strokeWidth={1} />
+        </div>
+        <div className='aspect-square rounded-lg bg-muted text-foreground flex justify-center items-center'>
+          <div className='flex flex-col items-center -rotate-45'>
+            <div className='w-[30px] h-[2px] bg-foreground rounded-full'></div>
+            <div className='w-[20px] h-[2px] bg-foreground rounded-full mt-2'></div>
+          </div>
         </div>
       </div>
     </div>
