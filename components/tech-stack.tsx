@@ -37,9 +37,6 @@ const TechStack = () => {
           <IconBrandTailwind size={45} strokeWidth={1} />
         </div>
         <div className='aspect-square rounded-lg bg-muted text-foreground flex justify-center items-center'>
-          <IconBrandFramerMotion size={40} strokeWidth={1} />
-        </div>
-        <div className='aspect-square rounded-lg bg-muted text-foreground flex justify-center items-center'>
           <IconBrandNodejs size={40} strokeWidth={1} />
         </div>
         <div className='aspect-square rounded-lg bg-muted text-foreground flex justify-center items-center'>
@@ -49,16 +46,7 @@ const TechStack = () => {
           <IconBrandPrisma size={40} strokeWidth={1} />
         </div>
         <div className='aspect-square rounded-lg bg-muted text-foreground flex justify-center items-center'>
-          <IconBrandStripe size={40} strokeWidth={1} />
-        </div>
-        <div className='aspect-square rounded-lg bg-muted text-foreground flex justify-center items-center'>
-          <IconBrandVue size={40} strokeWidth={1} />
-        </div>
-        <div className='aspect-square rounded-lg bg-muted text-foreground flex justify-center items-center'>
           <IconBrandNuxt size={40} strokeWidth={1} />
-        </div>
-        <div className='aspect-square rounded-lg bg-muted text-foreground flex justify-center items-center'>
-          <IconBrandRadixUi size={40} strokeWidth={1} />
         </div>
         <div className='aspect-square rounded-lg bg-muted text-foreground flex justify-center items-center'>
           <div className='flex flex-col items-center -rotate-45'>
