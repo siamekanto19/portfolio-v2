@@ -22,9 +22,9 @@ const WorkExperience = () => {
         </p>
         <Card className='mt-4 shadow-none border-0 bg-muted'>
           <CardHeader className='p-5'>
-            <CardTitle className='text-xl font-semibold'>Lumaracode</CardTitle>
-            <CardDescription>Software Developer</CardDescription>
-            <CardDescription>October 15, 2024 - Present</CardDescription>
+            <CardTitle className='text-xl font-semibold'>Green Pants Studio</CardTitle>
+            <CardDescription>Frontend Engineer</CardDescription>
+            <CardDescription>January 20, 2025 - Present</CardDescription>
           </CardHeader>
         </Card>
         <Card className='shadow-none border-0 bg-muted'>
