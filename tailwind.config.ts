@@ -57,7 +57,8 @@ const config: Config = {
         sm: 'calc(var(--radius) - 4px)',
       },
       fontFamily: {
-        'dm-serif': ['var(--font-dm-serif)', 'sans-serif'],
+        heading: ['Mackinac', 'Georgia', 'serif'],
+        body: ['Fricolage', 'system-ui', 'sans-serif'],
       },
       keyframes: {
         shine: {

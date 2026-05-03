@@ -1,19 +1,12 @@
 import { ThemeProvider } from '@/components/theme-provider'
 import type { Metadata } from 'next'
 import './globals.css'
-import { Murecho, DM_Serif_Display } from 'next/font/google'
 
 export const metadata: Metadata = {
-  title: 'Siam | Web Application Developer',
-  description: 'Web Application Developer based in Khulna, Bangladesh',
+  title: 'SK Siam Rouf — Full Stack Developer',
+  description:
+    'Full Stack Developer (Frontend Focused) based in Khulna, Bangladesh. Specializing in React, Next.js, TypeScript, and Vue.',
 }
-
-const murecho = Murecho({ subsets: ['latin'] })
-const dmSerif = DM_Serif_Display({
-  subsets: ['latin'],
-  weight: ['400'],
-  variable: '--font-dm-serif',
-})
 
 export default function RootLayout({
   children,
@@ -22,9 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en' suppressHydrationWarning>
-      <body className={`${murecho.className} ${dmSerif.variable} antialiased`}>
+      <body className='font-body antialiased'>
         <ThemeProvider attribute='class' enableSystem disableTransitionOnChange>
-          <div className='w-11/12 md:w-2/3 xl:w-1/2 mx-auto'>{children}</div>
+          {children}
         </ThemeProvider>
       </body>
     </html>
