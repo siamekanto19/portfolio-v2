@@ -3,7 +3,7 @@ import { Github, Linkedin } from 'lucide-react'
 
 const Footer = () => {
   return (
-    <footer className='mt-20 pt-8 border-t animate-fade-in-up delay-5'>
+    <footer className='mt-20 pt-8 border-t animate-fade-in-up delay-6'>
       <div className='flex flex-col sm:flex-row items-center justify-between gap-4'>
         <p className='text-sm text-muted-foreground'>
           © {new Date().getFullYear()} SK Siam Rouf

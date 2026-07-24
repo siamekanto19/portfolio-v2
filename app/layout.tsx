@@ -3,9 +3,9 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'SK Siam Rouf — Full Stack Developer',
+  title: 'SK Siam Rouf — Frontend Engineer',
   description:
-    'Full Stack Developer (Frontend Focused) based in Khulna, Bangladesh. Specializing in React, Next.js, TypeScript, and Vue.',
+    'Frontend engineer with five years of experience building and optimizing production web applications in React, Vue, and Next.js. Based in Khulna, Bangladesh.',
 }
 
 export default function RootLayout({

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { Download, Mail, MapPin } from 'lucide-react'
+import { Download, Mail, MapPin, Phone } from 'lucide-react'
 
 const Header = () => {
   return (
@@ -26,7 +26,7 @@ const Header = () => {
             SK Siam Rouf
           </h1>
           <p className='mt-1 text-base text-muted-foreground'>
-            Full Stack Developer · Frontend Focused
+            Frontend Engineer
           </p>
           <div className='mt-3 flex flex-wrap items-center justify-center sm:justify-start gap-x-4 gap-y-2 text-sm text-muted-foreground'>
             <span className='inline-flex items-center gap-1.5'>
@@ -39,6 +39,13 @@ const Header = () => {
             >
               <Mail size={14} strokeWidth={1.5} />
               siamekanto360@gmail.com
+            </a>
+            <a
+              href='tel:+8801300947857'
+              className='inline-flex items-center gap-1.5 hover:text-foreground transition-colors'
+            >
+              <Phone size={14} strokeWidth={1.5} />
+              +880 1300 947857
             </a>
           </div>
 

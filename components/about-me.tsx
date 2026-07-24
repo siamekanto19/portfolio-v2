@@ -6,16 +6,15 @@ const AboutMe = () => {
       <h2 className='text-xl font-heading tracking-tight'>About</h2>
       <div className='mt-3 space-y-4 text-[15px] leading-relaxed text-muted-foreground'>
         <p>
-          Frontend focused Full Stack Developer with ~5 years of expertise in building
-          web applications. I specialize in creating polished, performant, and
-          user-friendly interfaces using TypeScript, React, Next.js, and Vue.
+          Frontend engineer with five years of experience building and
+          optimizing production web applications in React, Vue, and Next.js.
         </p>
         <p>
-          Skilled in Headless CMS with Jamstack Architecture, delivering
-          high-performing web experiences. I have a comprehensive understanding
-          of the full software life-cycle — from development to production — and
-          I&apos;m always eager to adopt new technologies and push the boundaries
-          of what&apos;s possible on the web.
+          Most of that work has focused on performance in data-heavy interfaces
+          such as large tables, real-time dashboards, and multi-step forms, with
+          additional experience in real-time communication and headless CMS
+          architecture. AI coding agents (Claude Code, Codex, OpenCode) are a
+          routine part of how I work.
         </p>
       </div>
     </section>

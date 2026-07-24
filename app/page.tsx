@@ -3,6 +3,7 @@ import AboutMe from '@/components/about-me'
 import TechStack from '@/components/tech-stack'
 import WorkExperience from '@/components/work-experience'
 import Projects from '@/components/projects'
+import Education from '@/components/education'
 import Footer from '@/components/footer'
 import { ModeToggle } from '@/components/mode-toggle'
 
@@ -16,6 +17,7 @@ const Home = () => {
         <TechStack />
         <WorkExperience />
         <Projects />
+        <Education />
         <Footer />
       </div>
     </>
